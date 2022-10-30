@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/ajuda.css">
+    
+    <title>Central de ajuda</title>
+</head>
+<body>
+
+<header>
+    <!--Cabeçalho-->
+    <div id="container">
+        <div id="retangulo">
+            <a href="/">
+                <img src="imagens/logo_senac_branco.png" alt="Senac Logo" id="logoBranca">
+            </a>
+
+            <div id="container">
+                <div class="dropdown">
+                <button class="dropbtn">
+                    <div class="linha"></div>
+                    <div class="linha"></div>
+                    <div class="linha"></div>
+                </button>
+                <div class="dropdown-content">
+                    <a class='login' href="/login"><i class="fas fa-user-check"></i> Fazer login</a>
+                    <a href="/"><i class="fas fa-home"></i> Tela Inicial</a>
+                    <a href="/setores"><i class="fas fa-cut"></i> Setores</a>
+                    <a href="/eventos"><i class="far fa-calendar-check"></i> Eventos</a>
+                    <a href="/sobreNos"><i class="fas fa-users"></i> Sobre Nós</a>
+                    <a href="/ajuda"><i class="fas fa-question-circle"></i> Ajuda</a>
+                </div>
+            </div>
+
+            <!--Caixa de pesquisa de conteúdo-->
+            <div id="divBusca">
+                <input type="search" id="txtBusca" placeholder="&nbsp;&nbsp;Pesquisar..."/>
+                <img src="imagens/icones/lupa.png" id="icnBusca" alt="Pesquisa">
+            </div>
+
+            <!--Botão de acesso a conta-->
+                <a href="/login">
+                    <button role="button" class="btnAcesso">
+                        ACESSO
+                    </button>
+                </a>
+        </div>
+    </div>
+    </div>
+
+</header>
+
+    <!--Corpo do site aqui-->
+
+    <div class="divPesquisa">
+        Suporte de ajuda
+        <div class="caixaPesquisa">
+            <input type="search" id="txtPesquisa" placeholder="&nbsp;&nbsp;&nbsp;Qual a sua dúvida sobre o site?"/>
+            <img src="imagens/icones/lupa.png" id="icnPesquisa" alt="Pesquisa">
+        </div>
+        <div class="txtRecep">
+            Olá usuário, estamos aqui para falcilitar ainda mais a sua experiencia em nossa plataforma.
+        </div>
+    </div>
+
+    <div id="ret1">
+        <div id="txt1">
+            <b>Dúvidas frequentes</b>
+        </div>
+        <ul id="lista">
+            <li>Não consigo acessar os links dos eventos</li>
+            <hr id="hr1">
+            <li>Meu login não está funcionando</li>
+            <hr id="hr1">
+            <li>Como posso acessar arquivos da faculdade?</li>
+        </ul>  
+        <img src="imagens/duvida2.png" id="img1" alt="Imagem 1">
+    </div>
+
+    <div id="ret2">
+        <div id="txt2">
+            <b>Dicas</b>
+        </div>
+        <ul id="lista">
+            <li>Sobre eventos públicos e privados</li>
+            <hr id="hr1">
+            <li>Acerca dos certificados</li>
+            <hr id="hr1">
+            <li>Acesse o mural de notificações da instituição</li>
+        </ul>  
+        <img src="imagens/duvida1.png" id="img2" alt="Imagem 2">
+    </div>
+
+    <div id="ret3">
+        <div id="txt3">
+            <b>Acesso rápido</b>
+        </div>
+        <ul id="lista">
+            <li>Cadastro do aluno</li>
+            <hr id="hr1">
+            <li>Alterar o email ou senha</li>
+            <hr id="hr1">
+            <li>Editar o perfil</li>
+        </ul>  
+        <img src="imagens/duvida3.png" id="img3" alt="Imagem 3">
+    </div>
+
+    <!--Footer-->
+    <div class="footer1">
+        <hr size="2" color="black" width="800">
+        <div>
+            <footer>
+                R. do Pombal, 57 - Santo Amaro, Recife - PE, 50100-170<br>(81)99999-9999
+            </footer>
+            <img src="imagens/icones/local.png" alt="Localização" id="localIcon">
+            <img src="imagens/icones/whats.png" alt="Whatsapp" id="whatsIcon">
+            <img src="imagens/icones/senaclogo2.png" alt="Senac Logo 2" id="logo2">
+        </div>
+    </div>
+</body>
+</html>

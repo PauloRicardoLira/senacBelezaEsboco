@@ -1,0 +1,443 @@
+
+header{
+	position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: black;
+    z-index:9999;
+}
+#retangulo {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: black;
+}
+.principal-sobrenos {
+
+    margin-top: 39px;
+    margin-bottom: 150px;
+    text-align: center;
+
+}
+.conteudo p {
+    text-align: left;
+}
+.conteudo-img {
+    position: absolute;
+    width: 40%;
+    height: 50%;
+}
+.conteudo {
+    left: 30%;
+    display: flex;
+    width: 50%;
+}
+#logoBranca {
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
+#icnBusca {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 305px;
+    top: -26px;
+}   
+#divBusca {
+    background-color: white;
+    border: solid 5px;
+    border-radius: 156px;
+    width: 340px;
+    height: 31px;
+    position: absolute;
+    left: 370px;
+    top: 38px;
+}
+#divFiltro {
+    background-color: white;
+    border: solid 5px;
+    border-radius: 156px;
+
+}
+.btnFiltroEx{
+    border: solid 2px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    background-color: white;
+    font-family: arial black;
+    width: 40px;
+    height: 36px;
+    position: absolute;
+    left: 1035px;
+    top: 40px;
+}
+#txtBusca {
+    float:left;
+    background-color: transparent;
+    border-radius: 156px;
+    padding-left: 5px;
+    font-style: times;
+    font-size: 18px;
+    border: none;
+    width: 340px;
+    height: 31px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+button{
+    border-radius: 10px;
+     margin-left: 40px;
+}
+.btnAcesso {
+    border: solid 5px;
+    border-radius: 156px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: arial black;
+    width: 159px;
+    height: 41.5px;
+    position: absolute;
+    left: 735px;
+    top: 37px;
+    cursor: pointer;
+}
+.btnAcesso:hover{
+    background-color: rgba(221, 220, 220, 0.678);
+
+    
+}
+a:hover, a:active {
+  color: #00BFFF;
+}
+#btnFiltro {
+    border: solid 5px;
+    border-radius: 156px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: arial black;
+    width: 159px;
+    height: 41.5px;
+    position: absolute;
+    left: 919px;
+    top: 37px;
+}
+.txtSobre{
+	margin-top: 120px;
+	font-size: 35px;
+    font-family: arial;
+}
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left: 90px;
+    margin-top: 10px;
+    color: var(--azul);
+    font-family: Georgia, serif;
+    font-size:1px;
+    width: 100px;
+    height: 90px;
+}
+.linha{
+    border: solid #f1f1f1 1px;
+    margin-bottom: 5px;
+    width: 20px;
+  }
+.container img { 
+    max-width: 300px;
+}
+header #container{
+  background-color: black;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+i{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+nav{
+    height: 100%;
+    width: 0px;
+    background-color: #fff;
+    
+    top:0;
+    left:0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+    float:right;
+  }
+  
+nav a{ 
+    color: red;
+    font-size: 25px;
+    display: block;
+    padding: 12px 10px 12px 32px;
+   
+  
+}
+ nav a:hover{
+   background: rgba(131, 170, 195, 0.8);   
+}
+  
+main{
+  padding: 10px;
+  transition: margin-left 0.5s;
+  float:right;
+}
+.dropbtn {
+    background-color: black;
+    padding: 12px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    padding: 5px;
+    display: none;
+    position: absolute;
+    border-radius: 30px 0px;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.login{
+    margin: 10px 0 20px 0 ;
+}
+  
+.dropdown-content a {
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+} 
+button{
+    border-radius: 10px;
+     margin-left: 40px;
+}
+.divPesquisa{
+    width: 300px;
+    height: 38px;
+    font-size: 35px;
+    font-family: arial;
+    text-align: center;
+    color: black;
+    position: absolute;
+    left: 41%;
+    top: 150px;
+}
+#icnPesquisa {
+    width: 13px;
+    height: 13px;
+    position: relative;
+    left: 205px;
+    top: -36px;
+}
+.caixaPesquisa{
+    background-color: white;
+    border: solid 1px;
+    border-color: gray;
+    border-radius: 156px;
+    width: 450px;
+    height: 20px;
+    position: relative;
+    left: -76px;
+    top: 38px;
+}
+#txtPesquisa{
+    float:left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: times;
+    font-size: 13px;
+    border-radius: 156px;
+    border-color: gray;
+    height: 22px;
+    width: 453px;
+    position: relative;
+    left: -1px;
+    top: -1px;
+}
+.txtRecep{
+    width: 600px;
+    height: 38px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    position: absolute;
+    left: -150px;
+    top: 130px;
+}
+#ret1 {
+    width: 250px;
+    height: 450px;
+    position: relative;
+    left: 15%;
+    top: 320px;
+    background: white;
+    border-radius: 30px;
+    border: solid 2px;
+    border-color: rgb(161, 161, 161);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10) inset;
+}
+#txt1{
+    width: 200px;
+    height: 38px;
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    left: 20%;
+    top: 30px;
+}
+#lista{
+    width: 200px;
+    height: 38px;
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    left: 0%;
+    top: 15%;
+}
+#hr1{
+    width: 150px;
+    height: 0px;
+}
+#img1{
+    position: absolute;
+    width: 180;
+    height: 180px;
+    left: 18%;
+    top: 270px;
+
+}
+#ret2{
+    width: 250px;
+    height: 450px;
+    position: absolute;
+    left: 41.5%;
+    top: 328px;
+    background: white;
+    border-radius: 30px;
+    border: solid 2px;
+    border-color: rgb(161, 161, 161);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10) inset;
+}
+#txt2{
+    width: 200px;
+    height: 38px;
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    left: 40%;
+    top: 30px;
+}
+#img2{
+    position: absolute;
+    width: 180;
+    height: 180px;
+    left: 12%;
+    top: 270px;
+
+}
+#ret3{
+    width: 250px;
+    height: 450px;
+    position: absolute;
+    left: 67.5%;
+    top: 328px;
+    background: white;
+    border-radius: 30px;
+    border: solid 2px;
+    border-color: rgb(161, 161, 161);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10) inset;
+}
+#txt3{
+    width: 200px;
+    height: 38px;
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    left: 30%;
+    top: 30px;
+}
+#img3{
+    position: absolute;
+    width: 180;
+    height: 180px;
+    left: 12%;
+    top: 270px;
+}
+
+    /*Footer*/
+
+.footer1 {
+    display: inline;
+    color: rgba(0, 0, 0, 0.51);
+    font-size: 12px;
+    position: absolute;
+    left: 300px;
+    top: 600px;
+}
+#logo2{
+    width: 50px;
+    height: 30px;
+    display: inline;
+    position: absolute;
+    left: 752px;
+    top: 15px;
+}
+#localIcon{
+    width: 15px;
+    height: 15px;
+    color: rgba(0, 0, 0, 0.10);
+    display: inline;
+    position: absolute;
+    left: 285px;
+    top: 13px;
+}
+#whatsIcon{
+    width: 17px;
+    height: 17px;
+    display: inline;
+    position: absolute;
+    left: 82px;
+    top: 27px;
+}

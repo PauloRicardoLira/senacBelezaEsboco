@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:hover, a:active {
+  color: #00BFFF;
+}
+.txtSetores{
+	margin-top: 120px;
+	font-size: 35px;
+    font-family: arial;
+}
+.container-1{
+	position: relative;
+	margin-top: 39px;
+	margin-left: 178px;
+    margin-right: auto;
+    width: auto;
+    height: 380px;
+    overflow:hidden;
+}
+.divCirculo{
+    display: inline-flex;
+    width: 120px;
+    border-radius:100%;
+    margin-bottom: 90px;
+    margin-left: 110px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+.divCirculo:hover{
+	background-color: rgba(221, 220, 220, 0.678);
+    cursor: pointer;
+}
+.circulo{
+    align-self: auto;
+    width: 120px;
+    height: 120px;
+    background-color: #CCC;
+    border-radius:100%;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    z-index:-1;
+}
+.txtCirculo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: -80%;
+    top: 90px;
+    margin-bottom:0px;
+    align-self: center;
+    
+}
+        
+/*navbar*/
+.linha{
+    border: solid #f1f1f1 1px;
+    margin-bottom: 5px;
+    width: 20px;
+}
+  
+  .login{
+    margin: 10px 0 20px 0 ;
+   
+}
+  
+
+
+/*header*/
+
+header .logo{
+    margin-left: 90px;
+    margin-top: 10px;
+    color: var(--azul);
+    font-family: Georgia, serif;
+    font-size:1px;
+    width: 100px;
+    height: 90px;
+}
+
+button{
+    border-radius: 10px;
+     margin-left: 40px !important;   
+}
+
+.botao{
+   font-size: 1.2em;
+    background: #070216;
+    border: 0;
+    margin-bottom: 1em;
+   color: #ffffff;
+    padding: 0.1em 0.4em;
+   position: static;
+   top: 10%;
+   left: 70%;
+   margin-right: 20px;
+  margin-left: 40px
+}
+
+.botao{
+    cursor: pointer;
+    border-radius:30px;
+  
+}
+
+.botao:hover{
+    background-color: rgb(81, 81, 81);
+    
+}
+
+.botoes{
+    margin:auto;
+}
+
+.buscar{
+    border:3px solid;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+
+.fa-search{
+  
+    margin-left: 10px;
+    position: absolute;
+   margin-top: 10px;
+}
+
+nav{
+    height: 100%;
+    width: 0px;
+    background-color: #fff;
+    
+    top:0;
+    left:0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+    float:right;
+}
+  
+nav a{ 
+    color: black;
+    font-size: 25px;
+    display: block;
+    padding: 12px 10px 12px 32px;   
+}
+
+nav a:hover{
+    background: rgba(131, 170, 195, 0.8);
+    
+}
+
+
+
+
+
+  
+/*responsive*/
+
+@media(max-width: 951px){
+    .informacoes p{
+      line-height: 15px;
+    }
+  
+    .logo{
+      display: none;
+    }
+}
+  
+@media(max-width: 851px){
+   .botao{
+     display: none;
+   }
+   .border{
+     height: 200px;
+   }
+}
+
+
+/*Paulo Ricardo*/
+
+#logoBranca {
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
+#icnBusca {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 305px;
+    top: -26px;
+}
+#divBusca {
+    background-color: white;
+    border: solid 5px;
+    border-radius: 156px;
+    width: 350px;
+    height: 41px;
+    position: absolute;
+    left: 370px;
+    top: 38px;
+}
+#divFiltro {
+    background-color: white;
+    border: solid 5px;
+    border-radius: 156px;
+}
+#txtBusca {
+    float:left;
+    background-color: transparent;
+    border-radius: 156px;
+    padding-left: 5px;
+    font-style: times;
+    font-size: 18px;
+    border: none;
+    width: 340px;
+    height: 31px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+button{
+    border-radius: 10px;
+     margin-left: 40px;
+}
+.btnAcesso {
+    border: solid 5px;
+    border-radius: 156px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: arial black;
+    width: 159px;
+    height: 41.5px;
+    position: absolute;
+    left: 735px;
+    top: 37px;
+    cursor: pointer;
+}
+.btnAcesso:hover{
+    background-color: rgba(221, 220, 220, 0.678);
+}
+#btnFiltro {
+    border: solid 5px;
+    border-radius: 156px 0px 0px 156px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: arial black;
+    width: 159px;
+    height: 41.5px;
+    position: absolute;
+    left: 919px;
+    top: 37px;
+}
+.txtFiltro{
+    position: absolute;
+    top: 100px;
+    left: -30px;
+}
+.btnFiltroEx{
+    border: solid 2px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    background-color: white;
+    font-family: arial black;
+    width: 40px;
+    height: 36px;
+    position: absolute;
+    left: 1050px;
+    top: 40px;
+}
+    /*Cabeçalho*/
+
+    #retangulo {
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background: black;
+    }
+    
+        /*Leticia*/
+    
+    header .container{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header .logo{
+        margin-left: 90px;
+        margin-top: 10px;
+        color: var(--azul);
+        font-family: Georgia, serif;
+        font-size:1px;
+        width: 100px;
+        height: 90px;
+    }
+    .linha{
+        border: solid #f1f1f1 1px;
+        margin-bottom: 5px;
+        width: 20px;
+      }
+    .container img { 
+        max-width: 300px;
+    }
+    header #container{
+      background-color: black;
+        height: 100%;
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    i{
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+    nav{
+        height: 100%;
+        width: 0px;
+        background-color: #fff;
+        
+        top:0;
+        left:0;
+        z-index: 1;
+        overflow: hidden;
+        transition: width 0.3s;
+        float:right;
+      }
+      
+    nav a{ 
+        color: black;
+        font-size: 25px;
+        display: block;
+        padding: 12px 10px 12px 32px;
+       
+      
+    }
+     nav a:hover{
+       background: rgba(131, 170, 195, 0.8);   
+    }
+      
+    main{
+      padding: 10px;
+      transition: margin-left 0.5s;
+      float:right;
+    }
+    .dropbtn {
+        background-color: black;
+        padding: 12px;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-content {
+        padding: 5px;
+        display: none;
+        position: absolute;
+        border-radius: 30px 0px;
+        background-color: black;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .login{
+        margin: 10px 0 20px 0 ;
+    }
+      
+    .dropdown-content a {
+        color: #ffffff;
+        font-weight: bolder;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+      
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+      
+    .dropdown:hover .dropbtn {
+        background-color: #ffffff;
+    } 
+    button{
+        border-radius: 10px;
+         margin-left: 40px;
+    }
+    .btnAcesso {
+        border: solid 5px;
+        border-radius: 156px;
+        box-sizing: border-box;
+        background-color: white;
+        font-family: arial black;
+        width: 159px;
+        height: 41.5px;
+        position: absolute;
+        left: 735px;
+        top: 37px;
+        cursor: pointer;
+    }
+    .btnAcesso:hover{
+        background-color: rgba(221, 220, 220, 0.678);
+    }
+    
+        /*Fim Letícia*/
+        
+   	/*Footer*/
+
+.footer1 {
+    display: inline;
+    color: rgba(0, 0, 0, 0.51);
+    font-size: 12px;
+    position: absolute;
+    left: 300px;
+    top: 600px;
+}
+#logo2{
+    width: 50px;
+    height: 30px;
+    display: inline;
+    position: absolute;
+    left: 752px;
+    top: 10px;
+}
+#localIcon{
+    width: 15px;
+    height: 15px;
+    color: rgba(0, 0, 0, 0.10);
+    display: inline;
+    position: absolute;
+    left: 285px;
+    top: 2px;
+}
+#whatsIcon{
+    width: 17px;
+    height: 17px;
+    display: inline;
+    position: absolute;
+    left: 82px;
+    top: 15px;
+}

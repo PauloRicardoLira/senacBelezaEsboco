@@ -1,0 +1,322 @@
+
+header{
+	position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: black;
+    z-index:9999;
+}
+#retangulo {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: black;
+}
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left: 90px;
+    margin-top: 10px;
+    color: var(--azul);
+    font-family: Georgia, serif;
+    font-size:1px;
+    width: 100px;
+    height: 90px;
+}
+.linha{
+    border: solid #f1f1f1 1px;
+    margin-bottom: 5px;
+    width: 20px;
+  }
+.container img { 
+    max-width: 300px;
+}
+header #container{
+  background-color: black;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+i{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+nav{
+    height: 100%;
+    width: 0px;
+    background-color: #fff;
+    
+    top:0;
+    left:0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+    float:right;
+  }
+  
+nav a{ 
+    color: black;
+    font-size: 25px;
+    display: block;
+    padding: 12px 10px 12px 32px;
+   
+  
+}
+ nav a:hover{
+   background: rgba(131, 170, 195, 0.8);   
+}
+  
+main{
+  padding: 10px;
+  transition: margin-left 0.5s;
+  float:right;
+}
+.dropbtn {
+    background-color: black;
+    padding: 12px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    padding: 5px;
+    display: none;
+    position: absolute;
+    border-radius: 30px 0px;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.login{
+    margin: 10px 0 20px 0 ;
+}
+  
+.dropdown-content a {
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+} 
+button{
+    border-radius: 10px;
+     margin-left: 40px;
+}
+.btnAcesso:hover{
+    background-color: rgba(221, 220, 220, 0.678);
+}
+.btnFiltroEx{
+    border: solid 2px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    background-color: white;
+    font-family: arial black;
+    width: 40px;
+    height: 36px;
+    position: absolute;
+    left: 1050px;
+    top: 40px;
+}
+a {
+    text-decoration:none;
+    background-color: transparent;
+    color: rgba(26, 146, 221, 0.8);
+}
+#logoBranca {
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
+#logo2{
+    width: 50px;
+    height: 30px;
+    display: inline;
+    position: absolute;
+    left: 752px;
+    top: 15px;
+}
+#localIcon{
+    width: 15px;
+    height: 15px;
+    color: rgba(0, 0, 0, 0.10);
+    display: inline;
+    position: absolute;
+    left: 285px;
+    top: 13px;
+}
+#whatsIcon{
+    width: 17px;
+    height: 17px;
+    display: inline;
+    position: absolute;
+    left: 82px;
+    top: 27px;
+}
+#imgLogin {
+    width: 520px;
+    height: 360px;
+    position: absolute;
+    left: 700px;
+    top: 148px;
+}
+#icnBusca {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 305px;
+    top: -26px;
+}
+#divBusca {
+    background-color: white;
+    border: solid 5px;
+    border-radius: 156px;
+    width: 340px;
+    height: 31px;
+    position: absolute;
+    left: 370px;
+    top: 38px;
+}
+#divFiltro {
+    background-color: white;
+    border: solid 5px;
+    border-radius: 156px;
+
+}
+#divLogin {
+    width: 300px;
+    height: 38px;
+    position: absolute;
+    left: 160px;
+    top: 148px;
+}
+#txtBusca {
+    float:left;
+    background-color: transparent;
+    border-radius: 156px;
+    padding-left: 5px;
+    font-style: times;
+    font-size: 18px;
+    border: none;
+    width: 340px;
+    height: 31px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+#txtEmail {
+    float: left;
+    background-color: transparent;
+    border: none;
+    padding-left: 2px;
+    position: relative;
+    width: 220px;
+    height: 31px;
+    left: 0px;
+    top: 0px;
+}
+#txtSenha {
+    float: left;
+    background-color: transparent;
+    border: none;
+    padding-left: 2px;
+    position: relative;
+    width: 220px;
+    height: 31px;
+    left: 0px;
+    top: 0px;
+}
+.btnAcesso {
+    border: solid 5px;
+    border-radius: 156px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: arial black;
+    width: 159px;
+    height: 41.5px;
+    position: absolute;
+    left: 735px;
+    top: 37px;
+    cursor: pointer;
+}
+#btnFiltro {
+    border: solid 5px;
+    border-radius: 156px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: arial black;
+    width: 159px;
+    height: 41.5px;
+    position: absolute;
+    left: 919px;
+    top: 37px;
+}
+
+#btnEntrar {
+    border: solid 2px gray;
+    border-radius: 156px;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: arial black;
+    color: white;
+    width: 159px;
+    height: 41.5px;
+    position: relative;
+    left: 30px;
+    top: 15px;
+    cursor: pointer;
+}
+#btnEntrar:hover{
+    background-color: rgba(58, 58, 58, 0.678);
+}
+.auxiliarFinal {
+    color: black;
+    position: relative;
+    left: 25px;
+    top: 30px;
+}
+linkrec {
+	color: #6495ED;
+}
+a:hover, a:active {
+  color: #00BFFF;
+}
+.footer1 {
+    display: inline;
+    color: rgba(0, 0, 0, 0.51);
+    font-size: 12px;
+    position: absolute;
+    left: 300px;
+    top: 600px;
+}

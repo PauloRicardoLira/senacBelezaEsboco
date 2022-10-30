@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://thymeleaf.org"
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Consultor</title>
+    <link type="text/css" rel="stylesheet" href="style/cadConsultor.css">
+</head>
+<body>
+        <div id="container">
+            <div id="retangulo">
+                <a href="/">
+                    <img src="imagens/logo_senac_branco.png" alt="Senac Logo" id="logoBranca">
+                </a>
+    
+                <div id="container">
+                    <div class="dropdown">
+	                    <button class="dropbtn menu">
+	                        <div class="linha"></div>
+	                        <div class="linha"></div>
+	                        <div class="linha"></div>
+	                    </button>
+                    
+	                    <div class="dropdown-content">
+	                        <a class='login' href="/login"><i class="fas fa-user-check"></i> Fazer login</a>
+	                        <a href="/"><i class="fas fa-home"></i> Tela Inicial</a>
+	                        <a href="/setores"><i class="fas fa-cut"></i> Setores</a>
+	                        <a href="/eventos"><i class="far fa-calendar-check"></i> Eventos</a>
+	                        <a href="/sobreNos"><i class="fas fa-users"></i> Sobre Nós</a>
+	                        <a href="/ajuda"><i class="fas fa-question-circle"></i> Ajuda</a>
+	                    </div>
+	                 </div>
+
+        <!--Caixa de pesquisa de conteúdo-->
+        <div id="divBusca">
+            <input type="search" id="txtBusca" placeholder="&nbsp;&nbsp;Pesquisar..."/>
+            <img src="imagens/icones/lupa.png" id="icnBusca" alt="Pesquisa">
+        </div>
+
+        <!--Botão de acesso a conta-->
+            <a href="/login">
+                <button role="button" class="btnAcesso">
+                    ACESSO
+                </button>
+            </a>
+    </div>
+    </div>
+    </div>
+
+    <!--Imagem do login-->
+    <img src="imagens/imglogin.PNG" alt="Ilustração" id="imgLogin">
+
+    <!--Informações do login-->
+    <div id="divLogin">
+        <h2>Cadastrar Consultor</h2>
+
+        <!--Nome-->
+        <div>
+            <input type="text" value="" name="nome_consultor" id="txtNome" placeholder="Nome"/>
+            <hr size="2" color="black" width="300">
+        </div>
+
+        <!--Sobrenome-->
+        <div>
+            <input type="text" value="" name="sobrenome_consultor" id="txtNome" placeholder="Sobrenome"/>
+            <hr size="2" color="black" width="300">
+        </div>
+
+        <!--Email-->
+        <div>
+            <input type="text" value="" name="email_consultor" id="txtNome" placeholder="Email"/>
+            <hr size="2" color="black" width="300">
+        </div>
+
+        <!--Id do Especialidade-->
+        <div>
+            <input type="text" value="" name="especialidades" id="txtNome" placeholder="Especialidade"/>
+            <hr size="2" color="black" width="300">
+        </div>
+
+        <!--Data de nascimento-->
+        <div>
+            <input type="date" value="" name="data_nasc_consultor" id="txtNome" placeholder="Data de nascimento"/>
+            <hr size="2" color="black" width="300">
+        </div>
+
+        <!--Digite uma senha-->
+        <div>
+            <input type="password" value="" name="senha_consultor" id="txtNome" placeholder="Digite uma senha"/>
+            <hr size="2" color="black" width="300">
+        </div>
+
+        <!--Botão do aluno-->
+        <div>
+            <form>
+	            <a href="/cadastrarAluno">
+	                <button type="button" id="btnAlunoProf"></button>
+	            </a>
+            </form>
+            <div id="txtAlunoProf">Aluno</div>
+        </div>
+
+        <!--Botão do professor-->
+        <div>
+            <form>
+                <a href="/cadastrarProfessor">
+                    <button type="button" id="btnAlunoProf"></button>
+                </a>                
+            </form>
+            <div id="txtAlunoProf">Professor</div>
+        </div>
+
+        <!--Botão do ADM-->
+        <div>
+            <form>
+            	<a href="/cadastrarConsultor">
+                	<button type="button" id="btnAdmAlu"></button>
+                </a>
+            </form>
+            <div id="txtAdmAlu">Consultor</div>
+        </div>
+
+        <!--Botão de entrar-->
+        <button type="submit" id="btnEntrarAlu">CADASTRAR</button>
+        <div class="auxiliarFinalAlu">
+            Já possuo cadastro, <a href="/login">fazer login</a>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer1">
+        <hr size="2" color="black" width="800">
+        <div>
+            <footer>
+                R. do Pombal, 57 - Santo Amaro, Recife - PE, 50100-170<br>(81)99999-9999
+            </footer>
+            <img src="imagens/icones/local.png" alt="Localização" id="localIcon">
+            <img src="imagens/icones/whats.png" alt="Whatsapp" id="whatsIcon">
+            <img src="imagens/icones/senaclogo2.png" alt="Senac Logo 2" id="logo2">
+        </div>
+    </div>
+</body>
+</html>

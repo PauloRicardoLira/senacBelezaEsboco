@@ -1,0 +1,249 @@
+
+header{
+	position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: black;
+    z-index:9999;
+}
+#retangulo {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: black;
+}
+a {
+    text-decoration:none;
+    background-color: transparent;
+    color: rgba(26, 146, 221, 0.8);
+}
+a:hover, a:active {
+  color: #00BFFF;
+}
+#logoBranca {
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
+#icnBusca {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 305px;
+    top: -26px;
+}
+#divBusca {
+    background-color: white;
+    border: solid 5px;
+    border-radius: 156px;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    left: 370px;
+    top: 38px;
+}
+#divFiltro {
+    background-color: white;
+    border: solid 5px;
+    border-radius: 156px;
+}
+#txtBusca {
+    float:left;
+    background-color: transparent;
+    border-radius: 156px;
+    padding-left: 5px;
+    font-style: times;
+    font-size: 18px;
+    border: none;
+    width: 340px;
+    height: 31px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#imgLogin {
+    width: 520px;
+    height: 360px;
+    position: absolute;
+    left: 700px;
+    top: 148px;
+}
+#icnBusca {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 305px;
+    top: -26px;
+}
+#divBusca {
+    background-color: white;
+    border: solid 5px;
+    border-radius: 156px;
+    width: 340px;
+    height: 31px;
+    position: absolute;
+    left: 370px;
+    top: 38px;
+}
+#divFiltro {
+    background-color: white;
+    border: solid 5px;
+    border-radius: 156px;
+
+}
+.btnAcesso {
+    border: solid 5px;
+    border-radius: 156px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: arial black;
+    width: 159px;
+    height: 41.5px;
+    position: absolute;
+    left: 775px;
+    top: 37px;
+    cursor: pointer;
+}
+.btnAcesso:hover{
+    background-color: rgba(221, 220, 220, 0.678);
+}
+.dropbtn {
+    background-color: black;
+    padding: 12px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 28px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    padding: 5px;
+    display: none;
+    position: absolute;
+    border-radius: 30px 0px;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.menu{
+    border-radius: 10px;
+     margin-left: 40px;
+}
+.login{
+    margin: 10px 0 20px 0 ;
+}
+  
+.dropdown-content a {
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+} 
+.linha{
+    border: solid #f1f1f1 1px;
+    margin-bottom: 5px;
+    width: 20px;
+  }
+ .corpo{
+ 	position: relative;
+ 	margin-top: 120px;
+ }
+ .retang{
+ 	width: 1000px;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    background: black;
+    border-radius: 20px;
+    overflow:hidden;
+ }
+ .txtDisciplina{
+ 	color: white;
+ 	font-size: 32px;
+ 	position: relative;
+ 	left: 50px;
+ }
+ .txtData{
+ 	color: white;
+ 	position: relative;
+ 	left: 50px;
+ }
+ .txtDescricao{
+ 	color: white;
+ 	position: relative;
+ 	left: 50px;
+ }
+ .imgDados{
+ 	color: white;
+ 	position: relative;
+ 	left: 50px;
+ }
+ .txtAutor{
+ 	color: white;
+ 	position: relative;
+ 	left: 50px;
+ }
+  
+  /*Footer*/
+
+.footer1 {
+    display: inline;
+    color: rgba(0, 0, 0, 0.51);
+    font-size: 12px;
+    position: absolute;
+    left: 300px;
+    margin-top: auto;
+}
+#logo2{
+    width: 50px;
+    height: 30px;
+    display: inline;
+    position: absolute;
+    left: 752px;
+    top: 15px;
+}
+#localIcon{
+    width: 15px;
+    height: 15px;
+    color: rgba(0, 0, 0, 0.10);
+    display: inline;
+    position: absolute;
+    left: 285px;
+    top: 13px;
+}
+#whatsIcon{
+    width: 17px;
+    height: 17px;
+    display: inline;
+    position: absolute;
+    left: 82px;
+    top: 27px;
+}
